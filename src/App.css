@@ -6,3 +6,35 @@
 }
 */
 
+/*Layout rules*/
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+	color: currentColor;
+	text-decoration: none;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+body{
+  max-width: 100%;
+}
+
+.container{
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.header.container{
+  background-color: aquamarine;
+  color:black;
+}
